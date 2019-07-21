@@ -1,0 +1,36 @@
+{
+  "name": "test_brainwave",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "start:proxy": "node ./proxy/index.js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/randomcolor": "^0.5.2",
+    "antd": "^3.20.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "randomcolor": "^0.5.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "unirest": "^0.6.0"
+  }
+}
